@@ -51,7 +51,7 @@
 
       <v-tooltip text="Kubernates - Basico - Intermedio" location="bottom">
         <template v-slot:activator="{ props }">
-          <img v-bind="props" src="/src/assets/Mskills/kubernates.png" alt="" />
+          <img v-bind="props" src="/src/assets/Mskills/JS.png" alt="" />
         </template>
       </v-tooltip>
 
@@ -149,9 +149,171 @@
     <div class="titulos ma-4" justify="center" align="center" style="color: #000">
       Quienes confian en mi trabajo
     </div>
-    <v-row>
-      <img src="" alt="" />
+    <v-row justify="center" align="center" class="ma-4">
+      <img
+        style="max-width: 20%; height: 100px; object-fit: scale-down; margin-right: 2%"
+        src="/src/assets/evosys.png"
+        alt=""
+      />
+      <img
+        style="max-width: 20%; height: 100px; object-fit: scale-down; margin-right: 3%"
+        src="/src/assets/Can.png"
+        alt=""
+      />
+      <img
+        style="max-width: 20%; height: 100px; object-fit: scale-down; margin-right: 5%"
+        src="/src/assets/eecore.png"
+        alt=""
+      />
+      <img
+        style="max-width: 20%; height: 100px; object-fit: scale-down; margin-right: 5%"
+        src="/src/assets/pazzia.png"
+        alt=""
+      />
+      <img
+        style="max-width: 20%; height: 100px; object-fit: scale-down"
+        src="/src/assets/cyrisrael.png"
+        alt=""
+      />
     </v-row>
+  </div>
+
+  <div class="proyectos" style="height: 20vh">
+    <div class="line" style="background-color: white"></div>
+    <div style="" class="line3"></div>
+    <div style="font-size: 40px; color: white; margin-top: 3%; margin-left: 50px">
+      MIS PROYECTOS
+    </div>
+  </div>
+  <div class="proyectos2">
+    <div class="line" style="background-color: white; height: auto"></div>
+    <v-card class="carddt2">
+      <v-card class="proyecto">
+        <v-row style="width: 100%">
+          <img src="/src/assets/CAN_prenent.png" alt="" style="width: 45%" />
+          <div style="width: 43%; margin-left: 5%; margin-top: 6%">
+            <h1>C.A.N. sistema</h1>
+            <div>
+              sistema administrativo para la gestión de asistencias, seguimiento de miembros y
+              estudiantes con módulos de análisis de información
+            </div>
+            <br />
+            <div style="display: flex" class="tecnologias">
+              <v-tooltip text="Vue - Avanzado" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/vue.png" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="Laravel - Avanzado" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/Laravel.jpg" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="AWS - Intermedio" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/aws.jpg" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="Docker -  Basico - Intermedio" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/docker.png" alt="" />
+                </template>
+              </v-tooltip>
+            </div>
+          </div>
+        </v-row>
+      </v-card>
+
+      <v-card class="proyecto">
+        <v-row style="width: 100%; display: flex; flex-direction: row-reverse">
+          <img
+            src="/src/assets/AsistencesIOT.jpeg"
+            alt=""
+            style="width: 35%; object-fit: scale-down; margin-left: 2%"
+          />
+          <div style="width: 43%; margin-right: 5%; margin-top: 6%">
+            <h1>Asistencias IOT</h1>
+            <div>
+              sistema administrativo para la gestión de asistencias, seguimiento de miembros y
+              estudiantes con módulos de análisis de información
+            </div>
+            <br />
+            <div style="display: flex" class="tecnologias">
+              <v-tooltip text="Laravel" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/Laravel.jpg" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="AWS" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/aws.jpg" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="esspresif" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/espsif.png" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="Fusion 360" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/fus360.jpg" alt="" />
+                </template>
+              </v-tooltip>
+              <v-tooltip text="Eagle" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/eagle.png" alt="" />
+                </template>
+              </v-tooltip>
+            </div>
+          </div>
+        </v-row>
+      </v-card>
+
+      <v-card class="proyecto">
+        <v-row style="width: 100%">
+          <img src="/src/assets/Core.jpg" alt="" style="width: 45%" />
+          <div style="width: 43%; margin-left: 5%; margin-top: 6%">
+            <h1>Core Reportes de pruebas de transformadores (Plataforma)</h1>
+            <div>
+              sistema administrativo para la gestión de asistencias, seguimiento de miembros y
+              estudiantes con módulos de análisis de información
+            </div>
+            <br />
+            <div style="display: flex" class="tecnologias">
+              <v-tooltip text="Vue - Avanzado" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/vue.png" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="Laravel - Avanzado" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/Laravel.jpg" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="AWS - Intermedio" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/aws.jpg" alt="" />
+                </template>
+              </v-tooltip>
+
+              <v-tooltip text="Docker -  Basico - Intermedio" location="bottom">
+                <template v-slot:activator="{ props }">
+                  <img v-bind="props" src="/src/assets/Mskills/docker.png" alt="" />
+                </template>
+              </v-tooltip>
+            </div>
+          </div>
+        </v-row>
+      </v-card>
+    </v-card>
   </div>
 </template>
 
@@ -170,6 +332,13 @@
   background-color: black;
 }
 
+.line3 {
+  width: 3px;
+  height: 40%;
+  margin-top: 5vh;
+  background-color: white;
+}
+
 .carddt1 {
   position: relative;
   left: -4%;
@@ -178,6 +347,19 @@
   width: 85%;
   background-color: #4c574c;
   color: white;
+}
+
+.tecnologias img {
+  width: 5%;
+}
+
+.carddt2 {
+  position: relative;
+  left: -4%;
+  top: 30%;
+  width: 90%;
+  background-color: transparent;
+  margin-bottom: 10vh;
 }
 
 .presentacion {
@@ -190,6 +372,25 @@
   flex-direction: column;
   margin-top: 30vh;
   margin-left: 5%;
+}
+
+.proyectos {
+  background: #4d4542;
+  margin-top: -15px;
+  display: flex;
+}
+.proyecto {
+  width: 95%;
+  margin-left: 2%;
+  background-color: #211e1c;
+  color: white;
+  height: 50vh;
+  margin-bottom: 60px;
+}
+.proyectos2 {
+  background: #4d4542;
+  margin-top: -15px;
+  display: flex;
 }
 
 .titulos {
